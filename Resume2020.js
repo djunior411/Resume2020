@@ -27,3 +27,16 @@ displayPosition("Tom", "Astronaut", "Space Traveller")
 displayPosition("Phillip", "Trucker", "Logistics")
 displayPosition("Rob", "Barista", "Produce coffee related beverages")
 
+function displaySkill (skills, coolness){
+    console.log("My skills: "+ skills)
+    console.log("Coolnes"+ coolness)
+}
+
+function displaySkill(skills, coolness){
+    if(coolness === true) {
+        console.log("BAM:" + skills)
+    } else {
+        console.log(skills)
+    }
+}
+displaySkill('JavaScript', true);
